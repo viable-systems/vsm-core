@@ -1,0 +1,65 @@
+# The directory Mix will write compiled artifacts to.
+/_build/
+
+# If you run "mix test --cover", coverage assets end up here.
+/cover/
+
+# The directory Mix downloads your dependencies sources to.
+/deps/
+
+# Where third-party dependencies like ExDoc output generated docs.
+/doc/
+
+# If the VM crashes, it generates a dump, let's ignore it too.
+erl_crash.dump
+
+# Also ignore archive artifacts (built via "mix archive.build").
+*.ez
+
+# Ignore package tarball (built via "mix hex.build").
+vsm_core-*.tar
+
+# Temporary files, for example, from tests.
+/tmp/
+
+# Elixir Language Server
+/.elixir_ls/
+
+# Dialyzer
+/priv/plts/*.plt
+/priv/plts/*.plt.hash
+
+# IDE and Editor files
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+/test/reports/
+/test/screenshots/
+
+# Environment variables
+.env
+.env.*
+
+# Log files
+*.log
+/logs/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Claude Flow / Swarm files
+.swarm/
+memory/
+hive-mind-*
+claude-flow.config.json
