@@ -42,7 +42,7 @@ defmodule VSMCore.MixProject do
       # Core dependencies
       {:gen_stage, "~> 1.2"},
       {:telemetry, "~> 1.2"},
-      {:telemetry_metrics, "~> 0.6"},
+      {:telemetry_metrics, "~> 1.0"},
       {:telemetry_poller, "~> 1.0"},
       
       # VSM packages (when published)

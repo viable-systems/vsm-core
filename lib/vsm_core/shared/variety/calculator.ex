@@ -1,4 +1,4 @@
-defmodule VsmCore.Shared.Variety.Calculator do
+defmodule VSMCore.Shared.Variety.Calculator do
   @moduledoc """
   Provides real-time variety calculations and complexity metrics for VSM systems.
   
@@ -6,7 +6,7 @@ defmodule VsmCore.Shared.Variety.Calculator do
   and provides recommendations for variety management.
   """
   
-  alias VsmCore.Shared.VarietyEngineering
+  alias VSMCore.Shared.VarietyEngineering
   
   @type variety_metric :: %{
     value: float(),

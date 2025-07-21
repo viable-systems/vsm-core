@@ -1,4 +1,4 @@
-defmodule VsmCore.Shared.Recursion do
+defmodule VSMCore.Shared.Recursion do
   @moduledoc """
   Implements recursive structure management for Viable System Model.
   

@@ -1,4 +1,4 @@
-defmodule VsmCore.Shared.Variety.Attenuator do
+defmodule VSMCore.Shared.Variety.Attenuator do
   @moduledoc """
   Implements variety attenuation strategies for managing excessive complexity.
   

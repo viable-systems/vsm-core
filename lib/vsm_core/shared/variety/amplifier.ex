@@ -1,4 +1,4 @@
-defmodule VsmCore.Shared.Variety.Amplifier do
+defmodule VSMCore.Shared.Variety.Amplifier do
   @moduledoc """
   Implements variety amplification strategies for increasing system capacity.
   

@@ -1,4 +1,4 @@
-defmodule VsmCore.Shared.VarietyEngineering do
+defmodule VSMCore.Shared.VarietyEngineering do
   @moduledoc """
   Implements Ashby's Law of Requisite Variety and variety management techniques.
   
@@ -7,7 +7,7 @@ defmodule VsmCore.Shared.VarietyEngineering do
   environmental demands.
   """
   
-  alias VsmCore.Shared.Variety.{Attenuator, Amplifier, Calculator}
+  alias VSMCore.Shared.Variety.{Attenuator, Amplifier, Calculator}
   
   @type variety_state :: %{
     internal: float(),
@@ -24,10 +24,10 @@ defmodule VsmCore.Shared.VarietyEngineering do
   
   ## Examples
   
-      iex> VsmCore.Shared.VarietyEngineering.shannon_entropy([0.5, 0.5])
+      iex> VSMCore.Shared.VarietyEngineering.shannon_entropy([0.5, 0.5])
       1.0
       
-      iex> VsmCore.Shared.VarietyEngineering.shannon_entropy([1.0])
+      iex> VSMCore.Shared.VarietyEngineering.shannon_entropy([1.0])
       0.0
   """
   def shannon_entropy(probabilities) when is_list(probabilities) do
