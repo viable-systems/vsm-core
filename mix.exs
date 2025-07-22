@@ -5,7 +5,7 @@ defmodule VSMCore.MixProject do
     [
       app: :vsm_core,
       version: "0.1.0",
-      elixir: "~> 1.18",
+      elixir: "~> 1.17",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       
@@ -43,7 +43,7 @@ defmodule VSMCore.MixProject do
       {:gen_stage, "~> 1.2"},
       {:telemetry, "~> 1.2"},
       {:telemetry_metrics, "~> 1.0"},
-      {:telemetry_poller, "~> 1.0"},
+      {:telemetry_poller, "~> 1.1"},
       
       # VSM packages (when published)
       # {:vsm_starter, "~> 0.1"},
